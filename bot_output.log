@@ -1,0 +1,15 @@
+2026-06-24 09:59:50,296 - config - INFO - Database initialized successfully.
+2026-06-24 09:59:50,320 - apscheduler.scheduler - INFO - Scheduler started
+2026-06-24 09:59:50,321 - config - INFO - Scheduler initialized and started.
+Traceback (most recent call last):
+  File "/home/bac/test/llmtest/bot.py", line 1315, in <module>
+    main()
+    ~~~~^^
+  File "/home/bac/test/llmtest/bot.py", line 1191, in main
+    application = Application.builder().token(BOT_TOKEN).build()
+  File "/home/bac/miniconda3/envs/py314/lib/python3.14/site-packages/telegram/ext/_applicationbuilder.py", line 312, in build
+    updater = Updater(bot=bot, update_queue=update_queue)
+  File "/home/bac/miniconda3/envs/py314/lib/python3.14/site-packages/telegram/ext/_updater.py", line 128, in __init__
+    self.__polling_cleanup_cb: Optional[Callable[[], Coroutine[Any, Any, None]]] = None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Updater' object has no attribute '_Updater__polling_cleanup_cb' and no __dict__ for setting new attributes
