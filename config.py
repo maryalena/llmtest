@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 #   export TASK_BOT_TOKEN="توکن_شما"
 #
 # روش دوم: توکن را مستقیم در اینجا قرار دهید (خط زیر را تغییر دهید):
-BOT_TOKEN = os.environ.get("1783073637", "8896833712:AAHdltzdXynCftKPa83t4k9KdJMAdj1G5xU")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8896833712:AAHdltzdXynCftKPa83t4k9KdJMAdj1G5xU")
 
 # -----------------------------------------------------------------------------
 # Database Configuration
