@@ -1,4 +1,4 @@
-ب"""
+"""
 Database module for the Telegram Task Manager Bot.
 Handles all SQLite database operations using OOP principles.
 """
